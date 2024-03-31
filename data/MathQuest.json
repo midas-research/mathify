@@ -10,14 +10,6 @@
     {
         "Title": "Probability",
         "Subtitle": "",
-        "Example": "Two dice are thrown and the sum of the numbers which come up on the dice is noted. Let us consider the following events associated with this experiment\\nA: 'the sum is even'.\\nB: 'the sum is a multiple of 3 '.\\nC: 'the sum is less than 4'.\\nD: 'the sum is greater than 11 '.\\n\\nWhich pairs of these events are mutually exclusive? Solution There are 36 elements in the sample space $\\mathrm{S}=\\{(x, y): x, y=1,2,3,4,5,6\\}$. Then\\n\\n$$\\n\\begin{aligned}\\n\\mathrm{A}= & \\{(1,1),(1,3),(1,5),(2,2),(2,4),(2,6),(3,1),(3,3),(3,5),(4,2),(4,4), \\\\\\n& (4,6),(5,1),(5,3),(5,5),(6,2),(6,4),(6,6)\\} \\\\\\n\\mathrm{B}= & \\{(1,2),(2,1),(1,5),(5,1),(3,3),(2,4),(4,2),(3,6),(6,3),(4,5),(5,4), \\\\\\n& (6,6)\\} \\\\\\n\\mathrm{C}= & \\{(1,1),(2,1),(1,2)\\} \\text { and } \\mathrm{D}=\\{(6,6)\\}\\n\\end{aligned}\\n$$\\n\\nWe find that\\n\\n$$\\n\\mathrm{A} \\cap \\mathrm{B}=\\{(1,5),(2,4),(3,3),(4,2),(5,1),(6,6)\\} \\neq \\phi\\n$$\\n\\nTherefore, $\\mathrm{A}$ and $\\mathrm{B}$ are not mutually exclusive events.\\n\\nSimilarly $A \\cap C \\neq \\phi, A \\cap D \\neq \\phi, B \\cap C \\neq \\phi$ and $B \\cap D \\neq \\phi$.\\n\\nThus, the pairs of events, $(A, C),(A, D),(B, C),(B, D)$ are not mutually exclusive events.\\n\\nAlso $\\mathrm{C} \\cap \\mathrm{D}=\\phi$ and so $\\mathrm{C}$ and $\\mathrm{D}$ are mutually exclusive events.\\n\\n",
-        "Solution": "",
-        "Final_answer": "",
-        "chapter": "Probability"
-    },
-    {
-        "Title": "Probability",
-        "Subtitle": "",
         "Example": "A coin is tossed three times, consider the following events.\\n\\nA: 'No head appears', B: 'Exactly one head appears' and C: 'Atleast two heads appear'.\\n\\nDo they form a set of mutually exclusive and exhaustive events?\\n\\n",
         "Solution": "The sample space of the experiment is\\n\\n$$\\n\\mathrm{S}=\\{\\mathrm{HHH}, \\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}, \\mathrm{TTT}\\}\\n$$\\n\\nand $\\mathrm{A}=\\{\\mathrm{TTT}\\}, \\mathrm{B}=\\{\\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}\\}, \\mathrm{C}=\\{\\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HHH}\\}$ Now\\n\\n$$\\n\\mathrm{A} \\cup \\mathrm{B} \\cup \\mathrm{C}=\\{\\mathrm{TTT}, \\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}, \\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HHH}\\}=\\mathrm{S}\\n$$\\n\\nTherefore, $\\mathrm{A}, \\mathrm{B}$ and $\\mathrm{C}$ are exhaustive events.\\n\\nAlso, $\\quad \\mathrm{A} \\cap \\mathrm{B}=\\phi, \\mathrm{A} \\cap \\mathrm{C}=\\phi$ and $\\mathrm{B} \\cap \\mathrm{C}=\\phi$\\n\\nTherefore, the events are pair-wise disjoint, i.e., they are mutually exclusive.\\n\\nHence, A, B and C form a set of mutually exclusive and exhaustive events.\\n\\n",
         "Final_answer": "",
@@ -320,14 +312,6 @@
         "Subtitle": "",
         "Example": "Show that $\\left(x^{2}+x y+y^{2}\\right),\\left(z^{2}+x z+x^{2}\\right)$ and $\\left(y^{2}+y z+z^{2}\\right)$ are consecutive terms of an A.P., if $x, y$ and $z$ are in A.P.\\n\\n",
         "Solution": "The terms $\\left(x^{2}+x y+y^{2}\\right),\\left(z^{2}+x z+x^{2}\\right)$ and $\\left(y^{2}+y z+z^{2}\\right)$ will be in A.P. if\\n\\n$$\\n\\left(z^{2}+x z+x^{2}\\right)-\\left(x^{2}+x y+y^{2}\\right)=\\left(y^{2}+y z+z^{2}\\right)-\\left(z^{2}+x z+x^{2}\\right)\\n$$\\n\\ni.e.,\\n\\n$$\\nz^{2}+x z-x y-y^{2}=y^{2}+y z-x z-x^{2}\\n$$\\n\\ni.e.,\\n\\n$$\\nx^{2}+z^{2}+2 x z-y^{2}=y^{2}+y z+x y\\n$$\\n\\ni.e.,\\n\\n$$\\n(x+z)^{2}-y^{2}=y(x+y+z)\\n$$\\n\\ni.e.,\\n\\n$x+z-y=y$\\n\\ni.e.,\\n\\n$$\\nx+z=2 y\\n$$\\n\\nwhich is true, since $x, y, z$ are in A.P. Hence $x^{2}+x y+y^{2}, z^{2}+x z+x^{2}, y^{2}+y z+z^{2}$ are in A.P.\\n\\n",
-        "Final_answer": "",
-        "chapter": "Sequence And Series"
-    },
-    {
-        "Title": "Sequence And Series",
-        "Subtitle": "",
-        "Example": "If $a, b, c, d$ are in G.P., prove that $a^{2}-b^{2}, b^{2}-c^{2}, c^{2}-d^{2}$ are also in G.P. Solution Let $r$ be the common ratio of the given G.P. Then\\n\\n$$\\n\\begin{aligned}\\n\\frac{b}{a}=\\frac{c}{b} & =\\frac{d}{c}=r \\\\\\n\\Rightarrow \\quad b & =a r, c=b r=a r^{2}, d=c r=a r^{3} \\\\\\n& \\text { Now, } \\quad a^{2}-b^{2}=a^{2}-a^{2} r^{2}=a^{2}\\left(1-r^{2}\\right)\\n\\end{aligned}\\n$$\\n\\nand\\n\\n$$\\nb^{2}-c^{2}=a^{2} r^{2}-a^{2} r^{4}=a^{2} r^{2}\\left(1-r^{2}\\right)\\n$$\\n\\n$$\\nc^{2}-d^{2}=a^{2} r^{4}-a^{2} r^{6}=a^{2} r^{4}\\left(1-r^{2}\\right)\\n$$\\n\\nTherefore,\\n\\n$$\\n\\frac{b^{2}-c^{2}}{a^{2}-b^{2}}=\\frac{c^{2}-d^{2}}{b^{2}-c^{2}}=r^{2}\\n$$\\n\\nHence, $a^{2}-b^{2}, b^{2}-c^{2}, c^{2}-d^{2}$ are in G.P.\\n\\n\\section{Long Answer Type}\\n",
-        "Solution": "",
         "Final_answer": "",
         "chapter": "Sequence And Series"
     },
@@ -864,14 +848,6 @@
         "Subtitle": "",
         "Example": "Find the value of $a$ such that the sum of the squares of the roots of the equation $x^{2}-(a-2) x-(a+1)=0$ is least.\\n\\n",
         "Solution": "Let $\\alpha, \\beta$ be the roots of the equation\\n\\nTherefore, $\\quad \\alpha+\\beta=a-2$ and $\\alpha \\beta=-(a+1)$\\n\\nNow\\n\\n$$\\n\\begin{aligned}\\n\\alpha^{2}+\\beta^{2} & =(\\alpha+\\beta)^{2}-2 \\alpha \\beta \\\\\\n& =(a-2)^{2}+2(a+1) \\\\\\n& =(a-1)^{2}+5\\n\\end{aligned}\\n$$\\n\\nTherefore, $\\quad \\alpha^{2}+\\beta^{2}$ will be minimum if $(a-1)^{2}=0$, i.e., $a=1$.\\n\\n\\n",
-        "Final_answer": "",
-        "chapter": "Complex Numbers And Quadratic Equations"
-    },
-    {
-        "Title": "Complex Numbers And Quadratic Equations",
-        "Subtitle": "",
-        "Example": "Find the value of $k$ if for the complex numbers $z_{1}$ and $z_{2}$,\\n\\n\\n$$\\n\\left|1-\\bar{z}_{1} z_{2}\\right|^{2}-\\left|z_{1}-z_{2}\\right|^{2}=k\\left(1-\\left|z_{1}\\right|^{2}\\right)\\left(1-\\left|z_{2}\\right|^{2}\\right)\\n$$\\n\\n$$\\n\\begin{aligned}\\n\\text { L.H.S. } & =\\left|1-\\bar{z}_{1} z_{2}\\right|^{2}-\\left|z_{1}-z_{2}\\right|^{2} \\\\\\n& =\\left(1-\\bar{z}_{1} z_{2}\\right)\\left(\\overline{1-\\bar{z}_{1} z_{2}}\\right)-\\left(z_{1}-z_{2}\\right)\\left(\\overline{z_{1}-z_{2}}\\right) \\\\\\n& =\\left(1-\\bar{z}_{1} z_{2}\\right)\\left(1-z_{1} \\bar{z}_{2}\\right)-\\left(z_{1}-z_{2}\\right)\\left(\\bar{z}_{1}-\\bar{z}_{2}\\right) \\\\\\n& =1+z_{1} \\bar{z}_{1} z_{2} \\bar{z}_{2}-z_{1} \\bar{z}_{1}-z_{2} \\bar{z}_{2} \\\\\\n& =1+\\left|z_{1}\\right|^{2} \\cdot\\left|z_{2}\\right|^{2}-\\left|z_{1}\\right|^{2}-\\left|z_{2}\\right|^{2} \\\\\\n& =\\left(1-\\left|z_{1}\\right|^{2}\\right)\\left(1-\\left|z_{2}\\right|^{2}\\right) \\\\\\n\\Rightarrow \\quad \\text { R.H.S. } & =k\\left(1-\\left|z_{1}\\right|^{2}\\right)\\left(1-\\left|z_{2}\\right|^{2}\\right) \\\\\\nk & =1\\n\\end{aligned}\\n$$\\n\\nHence, equating LHS and RHS, we get $k=1$.\\n\\n",
-        "Solution": "",
         "Final_answer": "",
         "chapter": "Complex Numbers And Quadratic Equations"
     },
@@ -1454,14 +1430,6 @@
     {
         "Title": "Linear Inequalities",
         "Subtitle": "",
-        "Example": "Solve $5 x-3<3 x+1$ when\\n\\\\\\n(i) $x$ is an integer, Solution We have, $5 x-3<3 x+1$\\nor\\n\\n(ii) $x$ is a real number.\\n\\n$5 x-3+3<3 x+1+3$\\n$5 x<3 x+4$\\n$5 x-3 x<3 x+4-3 x$\\n$2 x<4$\\n$x<2$\\n(i) When $x$ is an integer, the solutions of the given inequality are $-4,-3,-2,-1,0,1$\\n(ii) When $x$ is a real number, the solutions of the inequality are given by $x<2$, i.e., all real numbers $x$ which are less than 2 . Therefore, the solution set of the inequality is $x \\in(-\\infty, 2)$.\\n\\\\\\n\\n",
-        "Solution": "",
-        "Final_answer": "",
-        "chapter": "Linear Inequalities"
-    },
-    {
-        "Title": "Linear Inequalities",
-        "Subtitle": "",
         "Example": "Solve $4 x+3<6 x+7$.\\n",
         "Solution": "We have, $\\quad 4 x+3<6 x+7$\\nor $4 x-6 x<6 x+4-6 x$\\nor $\\quad-2 x<4 \\quad$ or $x>-2$\\ni.e., all the real numbers which are greater than -2 , are the solutions of the given inequality. Hence, the solution set is $(-2, \\infty)$.\\n\\\\\\n\\\\\\n",
         "Final_answer": "",
@@ -1606,14 +1574,6 @@
     {
         "Title": "Trigonometric Functions",
         "Subtitle": "",
-        "Example": "Find the radius of the circle in which a central angle of $60^{\\circ}$ intercepts an arc of length $37.4 \\mathrm{~cm}$ (use $\\pi=\\frac{22}{7}$ ). Solution Here $l=37.4 \\mathrm{~cm}$ and $\\theta=60^{\\circ}=\\frac{60 \\pi}{180}$ radian $=\\frac{\\pi}{3}$\\n\\nHence, $\\quad$ by $r=\\frac{l}{\\theta}$, we have\\n\\n$$\\nr=\\frac{37.4 \\times 3}{\\pi}=\\frac{37.4 \\times 3 \\times 7}{22}=35.7 \\mathrm{~cm}\\n$$\\n\\n\\\\\\n\\n",
-        "Solution": "",
-        "Final_answer": "",
-        "chapter": "Trigonometric Functions"
-    },
-    {
-        "Title": "Trigonometric Functions",
-        "Subtitle": "",
         "Example": "The minute hand of a watch is $1.5 \\mathrm{~cm}$ long. How far does its tip move in 40 minutes? (Use $\\pi=3.14$ ).\\n\\n",
         "Solution": "In 60 minutes, the minute hand of a watch completes one revolution. Therefore, in 40 minutes, the minute hand turns through $\\frac{2}{3}$ of a revolution. Therefore, $\\theta=\\frac{2}{3} \\times 360^{\\circ}$ or $\\frac{4 \\pi}{3}$ radian. Hence, the required distance travelled is given by\\n\\n$$\\nl=r \\theta=1.5 \\times \\frac{4 \\pi}{3} \\mathrm{~cm}=2 \\pi \\mathrm{cm}=2 \\times 3.14 \\mathrm{~cm}=6.28 \\mathrm{~cm} .\\n$$\\n\\n\\\\\\n\\n",
         "Final_answer": "",
@@ -1672,14 +1632,6 @@
         "Subtitle": "",
         "Example": "Find the value of $\\sin 15^{\\circ}$.\\n\\n",
         "Solution": "We have\\n\\n$$\\n\\begin{aligned}\\n\\sin 15^{\\circ} & =\\sin \\left(45^{\\circ}-30^{\\circ}\\right) \\\\\\n& =\\sin 45^{\\circ} \\cos 30^{\\circ}-\\cos 45^{\\circ} \\sin 30^{\\circ} \\\\\\n& =\\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2}-\\frac{1}{\\sqrt{2}} \\times \\frac{1}{2}=\\frac{\\sqrt{3}-1}{2 \\sqrt{2}} .\\n\\end{aligned}\\n$$\\n\\n",
-        "Final_answer": "",
-        "chapter": "Trigonometric Functions"
-    },
-    {
-        "Title": "Trigonometric Functions",
-        "Subtitle": "",
-        "Example": "Find the value of $\\tan \\frac{13 \\pi}{12}$. Solution We have\\n\\n$$\\n\\begin{aligned}\\n\\tan \\frac{13 \\pi}{12} & =\\tan \\left(\\pi+\\frac{\\pi}{12}\\right)=\\tan \\frac{\\pi}{12}=\\tan \\left(\\frac{\\pi}{4}-\\frac{\\pi}{6}\\right) \\\\\\n& =\\frac{\\tan \\frac{\\pi}{4}-\\tan \\frac{\\pi}{6}}{1+\\tan \\frac{\\pi}{4} \\tan \\frac{\\pi}{6}}=\\frac{1-\\frac{1}{\\sqrt{3}}}{1+\\frac{1}{\\sqrt{3}}}=\\frac{\\sqrt{3}-1}{\\sqrt{3}+1}=2-\\sqrt{3}\\n\\end{aligned}\\n$$\\n\\n",
-        "Solution": "",
         "Final_answer": "",
         "chapter": "Trigonometric Functions"
     },
@@ -3699,14 +3651,6 @@
     {
         "Title": "Probability",
         "Subtitle": "",
-        "Example": "Two dice are thrown and the sum of the numbers which come up on the dice is noted. Let us consider the following events associated with this experiment\\nA: 'the sum is even'.\\nB: 'the sum is a multiple of 3 '.\\nC: 'the sum is less than 4'.\\nD: 'the sum is greater than 11 '.\\n\\nWhich pairs of these events are mutually exclusive? Solution There are 36 elements in the sample space $\\mathrm{S}=\\{(x, y): x, y=1,2,3,4,5,6\\}$. Then\\n\\n$$\\n\\begin{aligned}\\n\\mathrm{A}= & \\{(1,1),(1,3),(1,5),(2,2),(2,4),(2,6),(3,1),(3,3),(3,5),(4,2),(4,4), \\\\\\n& (4,6),(5,1),(5,3),(5,5),(6,2),(6,4),(6,6)\\} \\\\\\n\\mathrm{B}= & \\{(1,2),(2,1),(1,5),(5,1),(3,3),(2,4),(4,2),(3,6),(6,3),(4,5),(5,4), \\\\\\n& (6,6)\\} \\\\\\n\\mathrm{C}= & \\{(1,1),(2,1),(1,2)\\} \\text { and } \\mathrm{D}=\\{(6,6)\\}\\n\\end{aligned}\\n$$\\n\\nWe find that\\n\\n$$\\n\\mathrm{A} \\cap \\mathrm{B}=\\{(1,5),(2,4),(3,3),(4,2),(5,1),(6,6)\\} \\neq \\phi\\n$$\\n\\nTherefore, $\\mathrm{A}$ and $\\mathrm{B}$ are not mutually exclusive events.\\n\\nSimilarly $A \\cap C \\neq \\phi, A \\cap D \\neq \\phi, B \\cap C \\neq \\phi$ and $B \\cap D \\neq \\phi$.\\n\\nThus, the pairs of events, $(A, C),(A, D),(B, C),(B, D)$ are not mutually exclusive events.\\n\\nAlso $\\mathrm{C} \\cap \\mathrm{D}=\\phi$ and so $\\mathrm{C}$ and $\\mathrm{D}$ are mutually exclusive events.\\n\\n",
-        "Solution": "",
-        "Final_answer": "",
-        "chapter": "Probability"
-    },
-    {
-        "Title": "Probability",
-        "Subtitle": "",
         "Example": "A coin is tossed three times, consider the following events.\\n\\nA: 'No head appears', B: 'Exactly one head appears' and C: 'Atleast two heads appear'.\\n\\nDo they form a set of mutually exclusive and exhaustive events?\\n\\n",
         "Solution": "The sample space of the experiment is\\n\\n$$\\n\\mathrm{S}=\\{\\mathrm{HHH}, \\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}, \\mathrm{TTT}\\}\\n$$\\n\\nand $\\mathrm{A}=\\{\\mathrm{TTT}\\}, \\mathrm{B}=\\{\\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}\\}, \\mathrm{C}=\\{\\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HHH}\\}$ Now\\n\\n$$\\n\\mathrm{A} \\cup \\mathrm{B} \\cup \\mathrm{C}=\\{\\mathrm{TTT}, \\mathrm{HTT}, \\mathrm{THT}, \\mathrm{TTH}, \\mathrm{HHT}, \\mathrm{HTH}, \\mathrm{THH}, \\mathrm{HHH}\\}=\\mathrm{S}\\n$$\\n\\nTherefore, $\\mathrm{A}, \\mathrm{B}$ and $\\mathrm{C}$ are exhaustive events.\\n\\nAlso, $\\quad \\mathrm{A} \\cap \\mathrm{B}=\\phi, \\mathrm{A} \\cap \\mathrm{C}=\\phi$ and $\\mathrm{B} \\cap \\mathrm{C}=\\phi$\\n\\nTherefore, the events are pair-wise disjoint, i.e., they are mutually exclusive.\\n\\nHence, A, B and C form a set of mutually exclusive and exhaustive events.\\n\\n",
         "Final_answer": "$\\quad \\mathrm{A} \\cap \\mathrm{B}=\\phi, \\mathrm{A} \\cap \\mathrm{C}=\\phi$ and $\\mathrm{B} \\cap \\mathrm{C}=\\phi$ ",
@@ -3925,14 +3869,6 @@
         "Subtitle": "",
         "Example": "Show that $\\left(x^{2}+x y+y^{2}\\right),\\left(z^{2}+x z+x^{2}\\right)$ and $\\left(y^{2}+y z+z^{2}\\right)$ are consecutive terms of an A.P., if $x, y$ and $z$ are in A.P.\\n\\n",
         "Solution": "The terms $\\left(x^{2}+x y+y^{2}\\right),\\left(z^{2}+x z+x^{2}\\right)$ and $\\left(y^{2}+y z+z^{2}\\right)$ will be in A.P. if\\n\\n$$\\n\\left(z^{2}+x z+x^{2}\\right)-\\left(x^{2}+x y+y^{2}\\right)=\\left(y^{2}+y z+z^{2}\\right)-\\left(z^{2}+x z+x^{2}\\right)\\n$$\\n\\ni.e.,\\n\\n$$\\nz^{2}+x z-x y-y^{2}=y^{2}+y z-x z-x^{2}\\n$$\\n\\ni.e.,\\n\\n$$\\nx^{2}+z^{2}+2 x z-y^{2}=y^{2}+y z+x y\\n$$\\n\\ni.e.,\\n\\n$$\\n(x+z)^{2}-y^{2}=y(x+y+z)\\n$$\\n\\ni.e.,\\n\\n$x+z-y=y$\\n\\ni.e.,\\n\\n$$\\nx+z=2 y\\n$$\\n\\nwhich is true, since $x, y, z$ are in A.P. Hence $x^{2}+x y+y^{2}, z^{2}+x z+x^{2}, y^{2}+y z+z^{2}$ are in A.P.\\n\\n",
-        "Final_answer": "",
-        "chapter": "Sequence And Series"
-    },
-    {
-        "Title": "Sequence And Series",
-        "Subtitle": "",
-        "Example": "If $a, b, c, d$ are in G.P., prove that $a^{2}-b^{2}, b^{2}-c^{2}, c^{2}-d^{2}$ are also in G.P. Solution Let $r$ be the common ratio of the given G.P. Then\\n\\n$$\\n\\begin{aligned}\\n\\frac{b}{a}=\\frac{c}{b} & =\\frac{d}{c}=r \\\\\\n\\Rightarrow \\quad b & =a r, c=b r=a r^{2}, d=c r=a r^{3} \\\\\\n& \\text { Now, } \\quad a^{2}-b^{2}=a^{2}-a^{2} r^{2}=a^{2}\\left(1-r^{2}\\right)\\n\\end{aligned}\\n$$\\n\\nand\\n\\n$$\\nb^{2}-c^{2}=a^{2} r^{2}-a^{2} r^{4}=a^{2} r^{2}\\left(1-r^{2}\\right)\\n$$\\n\\n$$\\nc^{2}-d^{2}=a^{2} r^{4}-a^{2} r^{6}=a^{2} r^{4}\\left(1-r^{2}\\right)\\n$$\\n\\nTherefore,\\n\\n$$\\n\\frac{b^{2}-c^{2}}{a^{2}-b^{2}}=\\frac{c^{2}-d^{2}}{b^{2}-c^{2}}=r^{2}\\n$$\\n\\nHence, $a^{2}-b^{2}, b^{2}-c^{2}, c^{2}-d^{2}$ are in G.P.\\n\\n\\section{Long Answer Type}\\n",
-        "Solution": "",
         "Final_answer": "",
         "chapter": "Sequence And Series"
     },
@@ -4773,14 +4709,6 @@
         "Subtitle": "",
         "Example": "Consider the experiment of rolling a die. Let A be the event 'getting a prime number', B be the event 'getting an odd number'. Write the sets representing the events (i) Aor B (ii) A and B (iii) A but not B (iv) 'not A'.\\n\\n",
         "Solution": "Here $S=\\{1,2,3,4,5,6\\}, A=\\{2,3,5\\}$ and $B=\\{1,3,5\\}$\\n\\nObviously\\n\\n(i) ' $\\mathrm{A}$ or $\\mathrm{B}$ ' $=\\mathrm{A} \\cup \\mathrm{B}=\\{1,2,3,5\\}$\\n\\n(ii) ' $\\mathrm{A}$ and $\\mathrm{B}$ ' $=\\mathrm{A} \\cap \\mathrm{B}=\\{3,5\\}$\\n\\n(iii) ' $\\mathrm{A}$ but not $\\mathrm{B}$ ' $=\\mathrm{A}-\\mathrm{B}=\\{2\\}$\\n\\n(iv) 'not $\\mathrm{A}^{\\prime}=\\mathrm{A}^{\\prime}=\\{1,4,6\\}$\\n\\n\\n\\n",
-        "Final_answer": "",
-        "chapter": "Probability Data set"
-    },
-    {
-        "Title": "Probability",
-        "Subtitle": "",
-        "Example": "Two dice are thrown and the sum of the numbers which come up on the dice is noted. Let us consider the following events associated with this experiment\\nA: 'the sum is even'.\\nB: 'the sum is a multiple of 3 '.\\nC: 'the sum is less than 4'.\\nD: 'the sum is greater than 11 '.\\n\\nWhich pairs of these events are mutually exclusive? Solution There are 36 elements in the sample space $\\mathrm{S}=\\{(x, y): x, y=1,2,3,4,5,6\\}$. Then\\n\\n$$\\n\\begin{aligned}\\n\\mathrm{A}= & \\{(1,1),(1,3),(1,5),(2,2),(2,4),(2,6),(3,1),(3,3),(3,5),(4,2),(4,4), \\\\\\n& (4,6),(5,1),(5,3),(5,5),(6,2),(6,4),(6,6)\\} \\\\\\n\\mathrm{B}= & \\{(1,2),(2,1),(1,5),(5,1),(3,3),(2,4),(4,2),(3,6),(6,3),(4,5),(5,4), \\\\\\n& (6,6)\\} \\\\\\n\\mathrm{C}= & \\{(1,1),(2,1),(1,2)\\} \\text { and } \\mathrm{D}=\\{(6,6)\\}\\n\\end{aligned}\\n$$\\n\\nWe find that\\n\\n$$\\n\\mathrm{A} \\cap \\mathrm{B}=\\{(1,5),(2,4),(3,3),(4,2),(5,1),(6,6)\\} \\neq \\phi\\n$$\\n\\nTherefore, $\\mathrm{A}$ and $\\mathrm{B}$ are not mutually exclusive events.\\n\\nSimilarly $A \\cap C \\neq \\phi, A \\cap D \\neq \\phi, B \\cap C \\neq \\phi$ and $B \\cap D \\neq \\phi$.\\n\\nThus, the pairs of events, $(A, C),(A, D),(B, C),(B, D)$ are not mutually exclusive events.\\n\\nAlso $\\mathrm{C} \\cap \\mathrm{D}=\\phi$ and so $\\mathrm{C}$ and $\\mathrm{D}$ are mutually exclusive events.\\n\\n",
-        "Solution": "",
         "Final_answer": "",
         "chapter": "Probability Data set"
     },
